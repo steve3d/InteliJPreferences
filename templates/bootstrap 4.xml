@@ -1,41 +1,41 @@
 <templateSet group="bootstrap 4">
-  <template name="b-ig-prepend" value="&lt;div class=&quot;input-group-prepend&quot;&gt;&#10;    &lt;span class=&quot;input-group-text&quot;&gt;$END$&lt;/span&gt;&#10;&lt;/div&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="b-ig-prepend" value="&lt;div class=&quot;input-group-prepend&quot;&gt;&#10;    &lt;span class=&quot;input-group-text&quot;&gt;$END$&lt;/span&gt;&#10;&lt;/div&gt;" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="HTML" value="true" />
     </context>
   </template>
-  <template name="b-ig-append" value="&lt;div class=&quot;input-group-append&quot;&gt;&#10;    &lt;span class=&quot;input-group-text&quot;&gt;$END$&lt;/span&gt;&#10;&lt;/div&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="b-ig-append" value="&lt;div class=&quot;input-group-append&quot;&gt;&#10;    &lt;span class=&quot;input-group-text&quot;&gt;$END$&lt;/span&gt;&#10;&lt;/div&gt;" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="HTML" value="true" />
     </context>
   </template>
-  <template name="b-modal" value="&lt;!-- Modal --&gt;&#10;&lt;div class=&quot;modal fade&quot; #$name$=&quot;bsModal&quot; id=&quot;$name$&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; aria-hidden=&quot;true&quot;&gt;&#10;  &lt;div class=&quot;modal-dialog&quot; role=&quot;document&quot;&gt;&#10;    &lt;div class=&quot;modal-content&quot;&gt;&#10;      &lt;div class=&quot;modal-header&quot;&gt;&#10;        &lt;h5 class=&quot;modal-title&quot; id=&quot;exampleModalLabel&quot;&gt;$TITLE$&lt;/h5&gt;&#10;        &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot; aria-label=&quot;Close&quot;&gt;&#10;          &lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;&#10;        &lt;/button&gt;&#10;      &lt;/div&gt;&#10;      &lt;div class=&quot;modal-body&quot;&gt;&#10;        $END$&#10;      &lt;/div&gt;&#10;      &lt;div class=&quot;modal-footer&quot;&gt;   &#10;        &lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;提交&lt;/button&gt;&#10;        &lt;button type=&quot;button&quot; class=&quot;btn btn-secondary&quot; data-dismiss=&quot;modal&quot;&gt;关闭&lt;/button&gt;&#10;      &lt;/div&gt;&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="b-modal" value="&lt;!-- Modal --&gt;&#10;&lt;div class=&quot;modal fade&quot; #$name$=&quot;bsModal&quot; id=&quot;$name$&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; aria-hidden=&quot;true&quot;&gt;&#10;  &lt;div class=&quot;modal-dialog&quot; role=&quot;document&quot;&gt;&#10;    &lt;div class=&quot;modal-content&quot;&gt;&#10;      &lt;div class=&quot;modal-header&quot;&gt;&#10;        &lt;h5 class=&quot;modal-title&quot; id=&quot;exampleModalLabel&quot;&gt;$TITLE$&lt;/h5&gt;&#10;        &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot; aria-label=&quot;Close&quot;&gt;&#10;          &lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;&#10;        &lt;/button&gt;&#10;      &lt;/div&gt;&#10;      &lt;div class=&quot;modal-body&quot;&gt;&#10;        $END$&#10;      &lt;/div&gt;&#10;      &lt;div class=&quot;modal-footer&quot;&gt;   &#10;        &lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;提交&lt;/button&gt;&#10;        &lt;button type=&quot;button&quot; class=&quot;btn btn-secondary&quot; data-dismiss=&quot;modal&quot;&gt;关闭&lt;/button&gt;&#10;      &lt;/div&gt;&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="modal" alwaysStopAt="true" />
     <variable name="TITLE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
     </context>
   </template>
-  <template name="b-alert" value="&lt;div class=&quot;alert alert-$type$&quot; role=&quot;alert&quot;&gt;&#10;  $END$&#10;&lt;/div&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="b-alert" value="&lt;div class=&quot;alert alert-$type$&quot; role=&quot;alert&quot;&gt;&#10;  $END$&#10;&lt;/div&gt;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="type" expression="" defaultValue="primary" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
     </context>
   </template>
-  <template name="b-alert-heading" value="&lt;div class=&quot;alert alert-$type$&quot; role=&quot;alert&quot;&gt;&#10;  &lt;h4 class=&quot;alert-heading&quot;&gt;$heading$&lt;/h4&gt;&#10;  $END$&#10;&lt;/div&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="b-alert-heading" value="&lt;div class=&quot;alert alert-$type$&quot; role=&quot;alert&quot;&gt;&#10;  &lt;h4 class=&quot;alert-heading&quot;&gt;$heading$&lt;/h4&gt;&#10;  $END$&#10;&lt;/div&gt;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="type" expression="" defaultValue="primary" alwaysStopAt="true" />
     <variable name="heading" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
     </context>
   </template>
-  <template name="b-dropdown" value="&lt;div class=&quot;dropdown&quot;&gt;&#10;  &lt;button class=&quot;btn btn-secondary dropdown-toggle&quot; type=&quot;button&quot; id=&quot;dropdownMenuButton&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;&#10;    $TITLE$&#10;  &lt;/button&gt;&#10;  &lt;div class=&quot;dropdown-menu&quot; aria-labelledby=&quot;dropdownMenuButton&quot;&gt;&#10;    &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;$END$&lt;/a&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="b-dropdown" value="&lt;div class=&quot;dropdown&quot;&gt;&#10;  &lt;button class=&quot;btn btn-secondary dropdown-toggle&quot; type=&quot;button&quot; id=&quot;dropdownMenuButton&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;&#10;    $TITLE$&#10;  &lt;/button&gt;&#10;  &lt;div class=&quot;dropdown-menu&quot; aria-labelledby=&quot;dropdownMenuButton&quot;&gt;&#10;    &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;$END$&lt;/a&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="TITLE" expression="" defaultValue="Dropdown" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
     </context>
   </template>
-  <template name="b-card" value="&lt;div class=&quot;card&quot; style=&quot;width: 18rem;&quot;&gt;&#10;    &lt;img class=&quot;card-img-top&quot; src=&quot;$src$&quot; alt=&quot;$alt$&quot;&gt;&#10;    &lt;div class=&quot;card-body&quot;&gt;&#10;        &lt;h5 class=&quot;card-title&quot;&gt;$title$&lt;/h5&gt;&#10;        &lt;h6 class=&quot;card-subtitle mb-2 text-muted&quot;&gt;$subtitle$&lt;/h6&gt;&#10;        &lt;p class=&quot;card-text&quot;&gt;$END$&lt;/p&gt;&#10;        &lt;a href=&quot;#&quot; class=&quot;card-link&quot;&gt;Card link&lt;/a&gt;&#10;    &lt;/div&gt;&#10;&lt;/div&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="b-card" value="&lt;div class=&quot;card&quot; style=&quot;width: 18rem;&quot;&gt;&#10;    &lt;img class=&quot;card-img-top&quot; src=&quot;$src$&quot; alt=&quot;$alt$&quot;&gt;&#10;    &lt;div class=&quot;card-body&quot;&gt;&#10;        &lt;h5 class=&quot;card-title&quot;&gt;$title$&lt;/h5&gt;&#10;        &lt;h6 class=&quot;card-subtitle mb-2 text-muted&quot;&gt;$subtitle$&lt;/h6&gt;&#10;        &lt;p class=&quot;card-text&quot;&gt;$END$&lt;/p&gt;&#10;        &lt;a href=&quot;#&quot; class=&quot;card-link&quot;&gt;Card link&lt;/a&gt;&#10;    &lt;/div&gt;&#10;&lt;/div&gt;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="src" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="alt" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="title" expression="" defaultValue="Card title" alwaysStopAt="true" />
@@ -44,7 +44,7 @@
       <option name="HTML" value="true" />
     </context>
   </template>
-  <template name="b-input" value="&lt;label for=&quot;$name$&quot;&gt;$label$&lt;/label&gt;&#10;&lt;input type=&quot;email&quot; class=&quot;form-control&quot; id=&quot;$name$&quot; name=&quot;$name$&quot; placeholder=&quot;$placeholder&quot; [(ngModel)]=&quot;$binding$&quot;&gt;&#10;&lt;oa-input-validation name=&quot;$name$&quot;&gt;&lt;/oa-input-validation&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="b-input" value="&lt;label for=&quot;$name$&quot;&gt;$label$&lt;/label&gt;&#10;&lt;input type=&quot;email&quot; class=&quot;form-control&quot; id=&quot;$name$&quot; name=&quot;$name$&quot; placeholder=&quot;$placeholder&quot; [(ngModel)]=&quot;$binding$&quot;&gt;&#10;&lt;oa-input-validation name=&quot;$name$&quot;&gt;&lt;/oa-input-validation&gt;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="binding" expression="" defaultValue="binding" alwaysStopAt="true" />
@@ -52,7 +52,7 @@
       <option name="HTML" value="true" />
     </context>
   </template>
-  <template name="b-select" value="&lt;label for=&quot;$name$&quot;&gt;$label$&lt;/label&gt;&#10;&lt;select class=&quot;form-control&quot; id=&quot;$name$&quot; name=&quot;$name$&quot; [(ngModel)]=&quot;$binding$&quot;&gt;&#10;  &lt;option [value]=&quot;undefined&quot;&gt;$END$&lt;/option&gt;&#10;&lt;/select&gt;&#10;&lt;oa-input-validation name=&quot;$name$&quot;&gt;&lt;/oa-input-validation&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="b-select" value="&lt;label for=&quot;$name$&quot;&gt;$label$&lt;/label&gt;&#10;&lt;select class=&quot;form-control&quot; id=&quot;$name$&quot; name=&quot;$name$&quot; [(ngModel)]=&quot;$binding$&quot;&gt;&#10;  &lt;option [value]=&quot;undefined&quot;&gt;$END$&lt;/option&gt;&#10;&lt;/select&gt;&#10;&lt;oa-input-validation name=&quot;$name$&quot;&gt;&lt;/oa-input-validation&gt;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="binding" expression="" defaultValue="binding" alwaysStopAt="true" />
@@ -60,53 +60,53 @@
       <option name="HTML" value="true" />
     </context>
   </template>
-  <template name="b-list" value="&lt;ul class=&quot;list-group&quot;&gt;&#10;  &lt;li class=&quot;list-group-item active&quot;&gt;$END$&lt;/li&gt;&#10;&lt;/ul&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="b-list" value="&lt;ul class=&quot;list-group&quot;&gt;&#10;  &lt;li class=&quot;list-group-item active&quot;&gt;$END$&lt;/li&gt;&#10;&lt;/ul&gt;" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="HTML" value="true" />
     </context>
   </template>
-  <template name="m-portlet" value="&lt;div class=&quot;m-portlet m-portlet--mobile&quot;&gt;&#10;    &lt;div class=&quot;m-portlet__head&quot;&gt;&#10;        &lt;div class=&quot;m-portlet__head-caption&quot;&gt;&#10;            &lt;div class=&quot;m-portlet__head-title&quot;&gt;&#10;                &lt;span class=&quot;m-portlet__head-icon&quot;&gt;&#10;                    &lt;i class=&quot;flaticon-map-location&quot;&gt;&lt;/i&gt;&#10;                &lt;/span&gt;&#10;                &lt;h3 class=&quot;m-portlet__head-text&quot;&gt;&#10;                    $TITLE$&#10;                &lt;/h3&gt;&#10;            &lt;/div&gt;&#10;        &lt;/div&gt;&#10;        &lt;div class=&quot;m-portlet__head-tools&quot;&gt;&#10;            &lt;ul class=&quot;m-portlet__nav&quot;&gt;&#10;                &lt;li class=&quot;m-portlet__nav-item&quot;&gt;&#10;                    &lt;a href=&quot;&quot; class=&quot;m-portlet__nav-link m-portlet__nav-link--icon&quot;&gt;&#10;                        &lt;i class=&quot;la la-close&quot;&gt;&lt;/i&gt;&#10;                    &lt;/a&gt;&#10;                &lt;/li&gt;&#10;            &lt;/ul&gt;&#10;        &lt;/div&gt;&#10;    &lt;/div&gt;&#10;    &lt;div class=&quot;m-portlet__body&quot;&gt;&#10;        $END$&#10;    &lt;/div&gt;&#10;&lt;/div&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="m-portlet" value="&lt;div class=&quot;m-portlet m-portlet--mobile&quot;&gt;&#10;    &lt;div class=&quot;m-portlet__head&quot;&gt;&#10;        &lt;div class=&quot;m-portlet__head-caption&quot;&gt;&#10;            &lt;div class=&quot;m-portlet__head-title&quot;&gt;&#10;                &lt;span class=&quot;m-portlet__head-icon&quot;&gt;&#10;                    &lt;i class=&quot;flaticon-map-location&quot;&gt;&lt;/i&gt;&#10;                &lt;/span&gt;&#10;                &lt;h3 class=&quot;m-portlet__head-text&quot;&gt;&#10;                    $TITLE$&#10;                &lt;/h3&gt;&#10;            &lt;/div&gt;&#10;        &lt;/div&gt;&#10;        &lt;div class=&quot;m-portlet__head-tools&quot;&gt;&#10;            &lt;ul class=&quot;m-portlet__nav&quot;&gt;&#10;                &lt;li class=&quot;m-portlet__nav-item&quot;&gt;&#10;                    &lt;a href=&quot;&quot; class=&quot;m-portlet__nav-link m-portlet__nav-link--icon&quot;&gt;&#10;                        &lt;i class=&quot;la la-close&quot;&gt;&lt;/i&gt;&#10;                    &lt;/a&gt;&#10;                &lt;/li&gt;&#10;            &lt;/ul&gt;&#10;        &lt;/div&gt;&#10;    &lt;/div&gt;&#10;    &lt;div class=&quot;m-portlet__body&quot;&gt;&#10;        $END$&#10;    &lt;/div&gt;&#10;&lt;/div&gt;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="TITLE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
     </context>
   </template>
-  <template name="m-portlet-tab" value="&lt;div class=&quot;m-portlet m-portlet--tabs&quot;&gt;&#10;    &lt;div class=&quot;m-portlet__head&quot;&gt;&#10;        &lt;div class=&quot;m-portlet__head-caption&quot;&gt;&#10;            &lt;div class=&quot;m-portlet__head-title&quot;&gt;&#10;                &lt;h3 class=&quot;m-portlet__head-text&quot;&gt;&#10;                    $TITLE$&#10;                &lt;/h3&gt;&#10;            &lt;/div&gt;&#10;        &lt;/div&gt;&#10;        &lt;div class=&quot;m-portlet__head-tools&quot;&gt;&#10;            &lt;ul class=&quot;nav nav-tabs m-tabs m-tabs-line m-tabs-line--brand  m-tabs-line--right m-tabs-line-danger&quot; role=&quot;tablist&quot;&gt;&#10;                &lt;li class=&quot;nav-item m-tabs__item&quot;&gt;&#10;                    &lt;a class=&quot;nav-link m-tabs__link active&quot; data-toggle=&quot;tab&quot; href=&quot;#m_portlet_tab_2_1&quot; role=&quot;tab&quot;&gt;&#10;                        &lt;i class=&quot;flaticon-share&quot;&gt;&lt;/i&gt;&#10;                        Logs&#10;                    &lt;/a&gt;&#10;                &lt;/li&gt;&#10;                &lt;li class=&quot;nav-item dropdown m-tabs__item&quot;&gt;&#10;                    &lt;a class=&quot;nav-link m-tabs__link dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; href=&quot;#&quot; role=&quot;button&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;true&quot;&gt;&#10;                        &lt;i class=&quot;flaticon-placeholder&quot;&gt;&lt;/i&gt;&#10;                        Settings&#10;                    &lt;/a&gt;&#10;                    &lt;div class=&quot;dropdown-menu dropdown-menu-right&quot;&gt;&#10;                        &lt;a class=&quot;dropdown-item&quot; data-toggle=&quot;tab&quot; href=&quot;#m_portlet_tab_2_2&quot;&gt;&#10;                            Action&#10;                        &lt;/a&gt;&#10;                        &lt;a class=&quot;dropdown-item&quot; data-toggle=&quot;tab&quot; href=&quot;#m_portlet_tab_2_3&quot;&gt;&#10;                            Another action&#10;                        &lt;/a&gt;&#10;                        &lt;a class=&quot;dropdown-item&quot; data-toggle=&quot;tab&quot; href=&quot;#m_portlet_tab_2_2&quot;&gt;&#10;                            Something else here&#10;                        &lt;/a&gt;&#10;                        &lt;div class=&quot;dropdown-divider&quot;&gt;&lt;/div&gt;&#10;                        &lt;a class=&quot;dropdown-item&quot; data-toggle=&quot;tab&quot; href=&quot;#m_portlet_tab_2_3&quot;&gt;&#10;                            Separated link&#10;                        &lt;/a&gt;&#10;                    &lt;/div&gt;&#10;                &lt;/li&gt;&#10;            &lt;/ul&gt;&#10;        &lt;/div&gt;&#10;    &lt;/div&gt;&#10;    &lt;div class=&quot;m-portlet__body&quot;&gt;&#10;        &lt;div class=&quot;tab-content&quot;&gt;&#10;            &lt;div class=&quot;tab-pane active&quot; id=&quot;m_portlet_tab_2_1&quot;&gt;&#10;                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.&#10;            &lt;/div&gt;&#10;            &lt;div class=&quot;tab-pane &quot; id=&quot;m_portlet_tab_2_2&quot;&gt;&#10;                Lorem Ipsum is simply dummy text of the printing and typesetting industry. printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.&#10;            &lt;/div&gt;&#10;            &lt;div class=&quot;tab-pane &quot; id=&quot;m_portlet_tab_2_3&quot;&gt;&#10;                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.&#10;            &lt;/div&gt;&#10;        &lt;/div&gt;&#10;    &lt;/div&gt;&#10;&lt;/div&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="m-portlet-tab" value="&lt;div class=&quot;m-portlet m-portlet--tabs&quot;&gt;&#10;    &lt;div class=&quot;m-portlet__head&quot;&gt;&#10;        &lt;div class=&quot;m-portlet__head-caption&quot;&gt;&#10;            &lt;div class=&quot;m-portlet__head-title&quot;&gt;&#10;                &lt;h3 class=&quot;m-portlet__head-text&quot;&gt;&#10;                    $TITLE$&#10;                &lt;/h3&gt;&#10;            &lt;/div&gt;&#10;        &lt;/div&gt;&#10;        &lt;div class=&quot;m-portlet__head-tools&quot;&gt;&#10;            &lt;ul class=&quot;nav nav-tabs m-tabs m-tabs-line m-tabs-line--brand  m-tabs-line--right m-tabs-line-danger&quot; role=&quot;tablist&quot;&gt;&#10;                &lt;li class=&quot;nav-item m-tabs__item&quot;&gt;&#10;                    &lt;a class=&quot;nav-link m-tabs__link active&quot; data-toggle=&quot;tab&quot; href=&quot;#m_portlet_tab_2_1&quot; role=&quot;tab&quot;&gt;&#10;                        &lt;i class=&quot;flaticon-share&quot;&gt;&lt;/i&gt;&#10;                        Logs&#10;                    &lt;/a&gt;&#10;                &lt;/li&gt;&#10;                &lt;li class=&quot;nav-item dropdown m-tabs__item&quot;&gt;&#10;                    &lt;a class=&quot;nav-link m-tabs__link dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; href=&quot;#&quot; role=&quot;button&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;true&quot;&gt;&#10;                        &lt;i class=&quot;flaticon-placeholder&quot;&gt;&lt;/i&gt;&#10;                        Settings&#10;                    &lt;/a&gt;&#10;                    &lt;div class=&quot;dropdown-menu dropdown-menu-right&quot;&gt;&#10;                        &lt;a class=&quot;dropdown-item&quot; data-toggle=&quot;tab&quot; href=&quot;#m_portlet_tab_2_2&quot;&gt;&#10;                            Action&#10;                        &lt;/a&gt;&#10;                        &lt;a class=&quot;dropdown-item&quot; data-toggle=&quot;tab&quot; href=&quot;#m_portlet_tab_2_3&quot;&gt;&#10;                            Another action&#10;                        &lt;/a&gt;&#10;                        &lt;a class=&quot;dropdown-item&quot; data-toggle=&quot;tab&quot; href=&quot;#m_portlet_tab_2_2&quot;&gt;&#10;                            Something else here&#10;                        &lt;/a&gt;&#10;                        &lt;div class=&quot;dropdown-divider&quot;&gt;&lt;/div&gt;&#10;                        &lt;a class=&quot;dropdown-item&quot; data-toggle=&quot;tab&quot; href=&quot;#m_portlet_tab_2_3&quot;&gt;&#10;                            Separated link&#10;                        &lt;/a&gt;&#10;                    &lt;/div&gt;&#10;                &lt;/li&gt;&#10;            &lt;/ul&gt;&#10;        &lt;/div&gt;&#10;    &lt;/div&gt;&#10;    &lt;div class=&quot;m-portlet__body&quot;&gt;&#10;        &lt;div class=&quot;tab-content&quot;&gt;&#10;            &lt;div class=&quot;tab-pane active&quot; id=&quot;m_portlet_tab_2_1&quot;&gt;&#10;                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.&#10;            &lt;/div&gt;&#10;            &lt;div class=&quot;tab-pane &quot; id=&quot;m_portlet_tab_2_2&quot;&gt;&#10;                Lorem Ipsum is simply dummy text of the printing and typesetting industry. printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.&#10;            &lt;/div&gt;&#10;            &lt;div class=&quot;tab-pane &quot; id=&quot;m_portlet_tab_2_3&quot;&gt;&#10;                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.&#10;            &lt;/div&gt;&#10;        &lt;/div&gt;&#10;    &lt;/div&gt;&#10;&lt;/div&gt;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="TITLE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
     </context>
   </template>
-  <template name="m-portlet-form" value="&lt;div class=&quot;m-portlet&quot;&gt;&#10;    &lt;div class=&quot;m-portlet__head&quot;&gt;&#10;        &lt;div class=&quot;m-portlet__head-caption&quot;&gt;&#10;            &lt;div class=&quot;m-portlet__head-title&quot;&gt;&#10;                &lt;h3 class=&quot;m-portlet__head-text&quot;&gt;&#10;                    $TITLE$&#10;                &lt;/h3&gt;&#10;            &lt;/div&gt;&#10;        &lt;/div&gt;&#10;    &lt;/div&gt;&#10;    &lt;!--begin::Form--&gt;&#10;    &lt;form class=&quot;m-form&quot; #f=&quot;ngForm&quot; [server-validation]=&quot;f&quot;&gt;&#10;        &lt;div class=&quot;m-portlet__body&quot;&gt;&#10;            $END$&#10;        &lt;/div&gt;&#10;        &lt;div class=&quot;m-portlet__foot m-portlet__foot--fit&quot;&gt;&#10;            &lt;div class=&quot;m-form__actions m-form__actions&quot;&gt;&#10;                &lt;button type=&quot;submit&quot; [disabled]=&quot;f.invalid&quot; class=&quot;btn btn-primary&quot;&gt;&#10;                    提交&#10;                &lt;/button&gt;&#10;                &lt;a routerLink=&quot;$LINK$&quot; class=&quot;btn btn-secondary&quot;&gt;&#10;                    取消&#10;                &lt;/a&gt;&#10;            &lt;/div&gt;&#10;        &lt;/div&gt;&#10;    &lt;/form&gt;&#10;    &lt;!--end::Form--&gt;&#10;&lt;/div&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="m-portlet-form" value="&lt;div class=&quot;m-portlet&quot;&gt;&#10;    &lt;div class=&quot;m-portlet__head&quot;&gt;&#10;        &lt;div class=&quot;m-portlet__head-caption&quot;&gt;&#10;            &lt;div class=&quot;m-portlet__head-title&quot;&gt;&#10;                &lt;h3 class=&quot;m-portlet__head-text&quot;&gt;&#10;                    $TITLE$&#10;                &lt;/h3&gt;&#10;            &lt;/div&gt;&#10;        &lt;/div&gt;&#10;    &lt;/div&gt;&#10;    &lt;!--begin::Form--&gt;&#10;    &lt;form class=&quot;m-form&quot; #f=&quot;ngForm&quot; [server-validation]=&quot;f&quot;&gt;&#10;        &lt;div class=&quot;m-portlet__body&quot;&gt;&#10;            $END$&#10;        &lt;/div&gt;&#10;        &lt;div class=&quot;m-portlet__foot m-portlet__foot--fit&quot;&gt;&#10;            &lt;div class=&quot;m-form__actions m-form__actions&quot;&gt;&#10;                &lt;button type=&quot;submit&quot; [disabled]=&quot;f.invalid&quot; class=&quot;btn btn-primary&quot;&gt;&#10;                    提交&#10;                &lt;/button&gt;&#10;                &lt;a routerLink=&quot;$LINK$&quot; class=&quot;btn btn-secondary&quot;&gt;&#10;                    取消&#10;                &lt;/a&gt;&#10;            &lt;/div&gt;&#10;        &lt;/div&gt;&#10;    &lt;/form&gt;&#10;    &lt;!--end::Form--&gt;&#10;&lt;/div&gt;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="TITLE" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="LINK" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
     </context>
   </template>
-  <template name="m-portlet-icon" value="&lt;span class=&quot;m-portlet__head-icon&quot;&gt;&#10;    &lt;i class=&quot;$END$&quot;&gt;&lt;/i&gt;&#10;&lt;/span&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="m-portlet-icon" value="&lt;span class=&quot;m-portlet__head-icon&quot;&gt;&#10;    &lt;i class=&quot;$END$&quot;&gt;&lt;/i&gt;&#10;&lt;/span&gt;" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="HTML" value="true" />
     </context>
   </template>
-  <template name="m-form-section" value="&lt;div class=&quot;m-form__section $POSITION$&quot;&gt;&#10;    &lt;div class=&quot;m-form__heading&quot;&gt;&#10;        &lt;h3 class=&quot;m-form__heading-title&quot;&gt;&#10;            $TITLE$&#10;        &lt;/h3&gt;&#10;    &lt;/div&gt;&#10;    $END$&#10;&lt;/div&gt;&#10;&lt;div class=&quot;m-form__seperator m-form__seperator--dashed&quot;&gt;&lt;/div&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="m-form-section" value="&lt;div class=&quot;m-form__section $POSITION$&quot;&gt;&#10;    &lt;div class=&quot;m-form__heading&quot;&gt;&#10;        &lt;h3 class=&quot;m-form__heading-title&quot;&gt;&#10;            $TITLE$&#10;        &lt;/h3&gt;&#10;    &lt;/div&gt;&#10;    $END$&#10;&lt;/div&gt;&#10;&lt;div class=&quot;m-form__seperator m-form__seperator--dashed&quot;&gt;&lt;/div&gt;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="POSITION" expression="" defaultValue="m-form__section--first" alwaysStopAt="true" />
     <variable name="TITLE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
     </context>
   </template>
-  <template name="m-form-group" value="&lt;div class=&quot;form-group m-form__group&quot;&gt;&#10;    $END$&#10;&lt;/div&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="m-form-group" value="&lt;div class=&quot;form-group m-form__group&quot;&gt;&#10;    $END$&#10;&lt;/div&gt;" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="HTML" value="true" />
     </context>
   </template>
-  <template name="m-form-row" value="&lt;div class=&quot;form-group m-form__group row&quot;&gt;&#10;    $END$&#10;&lt;/div&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="m-form-row" value="&lt;div class=&quot;form-group m-form__group row&quot;&gt;&#10;    $END$&#10;&lt;/div&gt;" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="HTML" value="true" />
     </context>
   </template>
-  <template name="b-textarea" value="&lt;label for=&quot;$name$&quot;&gt;$label$&lt;/label&gt;&#10;&lt;textarea class=&quot;form-control autosize&quot; id=&quot;$name$&quot; name=&quot;$name$&quot; [(ngModel)]=&quot;$binding$&quot;&gt;&lt;/textarea&gt;&#10;&lt;oa-input-validation name=&quot;$name$&quot;&gt;&lt;/oa-input-validation&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="b-textarea" value="&lt;label for=&quot;$name$&quot;&gt;$label$&lt;/label&gt;&#10;&lt;textarea class=&quot;form-control autosize&quot; id=&quot;$name$&quot; name=&quot;$name$&quot; [(ngModel)]=&quot;$binding$&quot;&gt;&lt;/textarea&gt;&#10;&lt;oa-input-validation name=&quot;$name$&quot;&gt;&lt;/oa-input-validation&gt;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="binding" expression="" defaultValue="" alwaysStopAt="true" />
@@ -114,17 +114,7 @@
       <option name="HTML" value="true" />
     </context>
   </template>
-  <template name="b-radio-list" value="&lt;label for=&quot;$name$&quot;&gt;$label$&lt;/label&gt;&#10;&lt;div class=&quot;m-radio-list&gt;&#10;    &lt;m-radio [value]=&quot;$value$&quot; name=&quot;$name$&quot; [(ngModel)]=&quot;$binding$&quot;&gt;$text$&lt;/m-radio&gt;&#10;&lt;/div&gt;&#10;&lt;oa-input-validation name=&quot;$name$&quot;&gt;&lt;/oa-input-validation&gt;" toReformat="false" toShortenFQNames="true">
-    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="binding" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="text" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="HTML" value="true" />
-    </context>
-  </template>
-  <template name="b-radio-inline" value="&lt;label for=&quot;$name$&quot;&gt;$label$&lt;/label&gt;&#10;&lt;div class=&quot;m-radio-inline&gt;&#10;    &lt;m-radio [value]=&quot;$value$&quot; name=&quot;$name$&quot; [(ngModel)]=&quot;$binding$&quot;&gt;$text$&lt;/m-radio&gt;&#10;&lt;/div&gt;&#10;&lt;oa-input-validation name=&quot;$name$&quot;&gt;&lt;/oa-input-validation&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="b-radio-list" value="&lt;label for=&quot;$name$&quot;&gt;$label$&lt;/label&gt;&#10;&lt;div class=&quot;m-radio-list&gt;&#10;    &lt;m-radio [value]=&quot;$value$&quot; name=&quot;$name$&quot; [(ngModel)]=&quot;$binding$&quot;&gt;$text$&lt;/m-radio&gt;&#10;&lt;/div&gt;&#10;&lt;oa-input-validation name=&quot;$name$&quot;&gt;&lt;/oa-input-validation&gt;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
@@ -134,7 +124,17 @@
       <option name="HTML" value="true" />
     </context>
   </template>
-  <template name="b-check-list" value="&lt;label for=&quot;$name$&quot;&gt;$label$&lt;/label&gt;&#10;&lt;div class=&quot;m-checkbox-list&gt;&#10;    &lt;m-checkbox [value]=&quot;true&quot; name=&quot;$name$&quot; [(ngModel)]=&quot;$binding$&quot;&gt;$text$&lt;/m-checkbox&gt;&#10;&lt;/div&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="b-radio-inline" value="&lt;label for=&quot;$name$&quot;&gt;$label$&lt;/label&gt;&#10;&lt;div class=&quot;m-radio-inline&gt;&#10;    &lt;m-radio [value]=&quot;$value$&quot; name=&quot;$name$&quot; [(ngModel)]=&quot;$binding$&quot;&gt;$text$&lt;/m-radio&gt;&#10;&lt;/div&gt;&#10;&lt;oa-input-validation name=&quot;$name$&quot;&gt;&lt;/oa-input-validation&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="binding" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="text" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="b-check-list" value="&lt;label for=&quot;$name$&quot;&gt;$label$&lt;/label&gt;&#10;&lt;div class=&quot;m-checkbox-list&gt;&#10;    &lt;m-checkbox [value]=&quot;true&quot; name=&quot;$name$&quot; [(ngModel)]=&quot;$binding$&quot;&gt;$text$&lt;/m-checkbox&gt;&#10;&lt;/div&gt;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="binding" expression="" defaultValue="" alwaysStopAt="true" />
@@ -143,7 +143,7 @@
       <option name="HTML" value="true" />
     </context>
   </template>
-  <template name="b-check-inline" value="&lt;label for=&quot;$name$&quot;&gt;$label$&lt;/label&gt;&#10;&lt;div class=&quot;m-checkbox-inline&gt;&#10;    &lt;m-checkbox [value]=&quot;true&quot; name=&quot;$name$&quot; [(ngModel)]=&quot;$binding$&quot;&gt;$text$&lt;/m-checkbox&gt;&#10;&lt;/div&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="b-check-inline" value="&lt;label for=&quot;$name$&quot;&gt;$label$&lt;/label&gt;&#10;&lt;div class=&quot;m-checkbox-inline&gt;&#10;    &lt;m-checkbox [value]=&quot;true&quot; name=&quot;$name$&quot; [(ngModel)]=&quot;$binding$&quot;&gt;$text$&lt;/m-checkbox&gt;&#10;&lt;/div&gt;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="binding" expression="" defaultValue="" alwaysStopAt="true" />
