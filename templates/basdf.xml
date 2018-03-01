@@ -1,0 +1,7 @@
+<templateSet group="basdf">
+  <template name="b-test" value="asdfasdf" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>
